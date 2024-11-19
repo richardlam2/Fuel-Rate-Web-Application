@@ -1,0 +1,25 @@
+
+
+.quote-history-container {
+    margin: 50px auto; /* Center the container horizontally */
+    max-width: 800px; /* Limit the width of the container */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: orange;
+}
+
+.black-text {
+    color: black;
+}

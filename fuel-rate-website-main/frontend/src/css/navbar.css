@@ -1,0 +1,55 @@
+/* css for the navbar */
+
+/* the container for the whole navbar */
+#navbox {
+    background-color: orange;
+    border: 1px solid darkorange;
+    font-weight: bold;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+}
+
+/* fixes navbar at top of screen when the user scrolls the page */
+#navbox.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* should be inside navbox, an ul element containing the buttons */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* for the NavLink inside a NavButton component */
+.navbutton {
+    color: black;
+    border-color: black;
+    box-shadow: 1px 1px 3px 1px darkorange;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-style: none solid none solid;
+    border-width: 1px;
+    display: block;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* NavButton pops out when user's mouse hovers over it */
+.navbutton:hover {
+    background-color: goldenrod;
+    color: white;
+    box-shadow: 3px 3px 3px 1px darkorange;
+    text-decoration: none;
+}
+
+/* highlights NavButton when user is on the page it links to */
+.navbutton.active {
+    background-color: yellow;
+}

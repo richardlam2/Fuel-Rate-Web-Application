@@ -1,0 +1,95 @@
+/* css for forms.
+ use on login, signup, logout, and signclear page
+ may also use on fuel rate, profile, and quote history page */
+
+/* the main container for a page that has a form.
+ should be the first div when returning a form page and includes background if any */
+.form-page {
+    width: 100%;
+    text-align: center;
+    min-height: 55vh;
+}
+
+/* container for the content of a form page.
+ usually the 2nd div and should contain the header of the form */
+.form-box {
+    display: inline-block;
+    background-color: orange;
+    margin: 5% 5%;
+    padding: 50px 30px;
+    min-width: 400px;
+    max-width: 700px;
+    color: black;
+    border: 1px solid orange;
+    border-radius: 50px;
+}
+
+.form-box2 {
+    display: inline-block;
+    background-color: orange;
+    margin: 5% 5%;
+    padding: 50px 30px;
+    min-width: 400px;
+    max-width: 1000px;
+    color: black;
+    border: 1px solid orange;
+    border-radius: 50px;
+}
+
+/* div container that holds the actual form element */
+.form-inner-box {
+    text-align: left;
+    padding: 0 20px;
+}
+
+/* the submit button of a form */
+.submit-button {
+    font-size: 20px;
+    padding: 2px 20px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px darkorange;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-button:hover {
+    background-color: gold;
+    box-shadow: 3px 3px 3px 1px darkorange;
+    color: white;
+}
+
+/* button to go to login page from sign up page or visa versa */
+.other-form-button {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px darkorange;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.other-form-button:hover {
+    color: white;
+    background-color: gold;
+    box-shadow: 3px 3px 3px 1px darkorange;
+    text-decoration: none;
+}
+
+/* logout button on logout page */
+.logout-button {
+    font-size: 25px;
+    padding: 2px 20px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.logout-button:hover {
+    color: white;
+    text-decoration: underline white solid;
+}

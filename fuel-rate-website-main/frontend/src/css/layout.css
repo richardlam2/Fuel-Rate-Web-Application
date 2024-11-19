@@ -1,0 +1,91 @@
+/* used with Layout.js 
+use this file to set the CSS of the TopHeader and BottomFooter components 
+*/
+
+#topheader {
+    border: 5px solid black;
+    font-family: "Arial";
+    font-size: 55px;
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    float: left;
+    min-width: fit-content;
+    margin: 30px 20px;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+
+.highlight {
+    background-color: orange; /* Set background color */
+    border-radius: 10px; /* Add border radius to create oval shape */
+    padding: 2px 5px; /* Add padding to create space around the word */
+}
+
+.black-word {
+    color: black; /* Set color to black */
+}
+
+img {
+    width: 1000px; 
+    height: 100px;
+    margin-left: 50px;
+   
+}
+
+#bottomfooter {
+    position: center;
+    height: 120px;
+    background-color: orange;
+    color: black;
+}
+
+/* website logo inside footer */
+#footerlogo {
+    text-align: center ;
+    font-size: 40px;
+    font-family: Lilita One;
+    color: black;
+}
+
+/* textbox inside the footer */
+#footertext {
+    text-align: center;
+    color: black;
+    font: inherit;
+}
+
+#footerimage {
+    position:absolute;
+    background-color:red;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 15px;
+    height: 180px;
+    width: 270px;
+    float: left;
+}
+
+.home-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    height: 100vh;
+    position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
